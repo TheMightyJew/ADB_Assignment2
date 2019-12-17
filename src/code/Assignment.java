@@ -2,14 +2,8 @@ package code;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Locale;
-import java.util.Set;
+import java.util.*;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -26,7 +20,6 @@ import hib.Users;
 public class Assignment
 {
 
-
 	public static void main(String[] args) 
 	{
 		System.out.println(isExistUsername("TheMightyJew"));
@@ -39,13 +32,13 @@ public class Assignment
 	public static boolean isExistUsername (String username)
 	{
 		Session session=null;
-		int usersAmount=0;
+		boolean usernameExists = false;
 		try
 		{
 			session=HibernateUtil.currentSession();
 			String hql="select username from Users users where users.username='"+username+"'";
 			Query query=session.createQuery(hql);
-			usersAmount=query.list().size();
+			usernameExists = query.list().size() > 0;
 		}
 		catch(Exception e) 
 		{
@@ -55,7 +48,7 @@ public class Assignment
 		{
 			HibernateUtil.closeSession();
 		}
-		return usersAmount>0;
+		return usernameExists;
 	}
 	/*
 	 * 1.2.4
@@ -64,37 +57,31 @@ public class Assignment
 			first_name, String last_name, String day_of_birth, String
 			month_of_birth, String year_of_birth)
 	{
-		if(Integer.parseInt(year_of_birth)<0 ||Integer.parseInt(year_of_birth)>2017||Integer.parseInt(day_of_birth)<1||Integer.parseInt(day_of_birth)>31)
-			return null;
+		// TODO: 12/17/2019 check if we increment as the generator says 
 		if(isExistUsername(username))
 			return null;
-		Session session=null;
-		Users user=new Users();
-		Date d=new Date();
+		Session session = null;
+		Users user = new Users();
+		Date date = new Date();
 		try
 		{
-			session=HibernateUtil.currentSession();
-			if(isMonthValidName(month_of_birth))
+			session = HibernateUtil.currentSession();
+			if(isRealMonthID(month_of_birth))
 			{
-				DateFormat format = new SimpleDateFormat("MMMM d, yyyy", Locale.ENGLISH);
-				d=format.parse(month_of_birth+" "+day_of_birth+", "+year_of_birth);
-			}
-			else if(isMonthValidNumber(month_of_birth))
-			{
-				if(month_of_birth.length()==1)
-					month_of_birth="0"+month_of_birth;
+				if(month_of_birth.length() == 1)
+					month_of_birth = "0" + month_of_birth;
 				DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
-				d=format.parse(day_of_birth+"/"+month_of_birth+"/"+year_of_birth);
+				date = format.parse(day_of_birth + "/" + month_of_birth + "/" + year_of_birth);
 			}
-			else //invalid month
+			else //invalid
 				return null;
-			user.setDateOfBirth(getTimestamp(d));
+			user.setDateOfBirth(getTimestamp(date));
 			user.setUsername(username);
 			user.setRegistrationDate(new Timestamp(System.currentTimeMillis()));
 			user.setFirstName(first_name);
 			user.setLastName(last_name);
 			user.setPassword(password);
-			Transaction tr=session.beginTransaction();
+			Transaction tr = session.beginTransaction();
 			session.saveOrUpdate(user);
 			tr.commit();
 		}
@@ -106,7 +93,7 @@ public class Assignment
 		{
 			HibernateUtil.closeSession();
 		}
-		return ""+user.getUserid();
+		return "" + user.getUserid();
 	}
 	/*
 	 * 1.2.5
@@ -395,37 +382,17 @@ public class Assignment
 		return null;
 	}
 
-	/*
-	 * help functions
-	 */
-	private static boolean isMonthValidName(String mName)
+	private static boolean isRealMonthID(String mNumber)
 	{
-		Set<String>MonthsNames=new HashSet<String>();
-		MonthsNames.add("January");
-		MonthsNames.add("February");
-		MonthsNames.add("March");
-		MonthsNames.add("April");
-		MonthsNames.add("May");
-		MonthsNames.add("June");
-		MonthsNames.add("July");
-		MonthsNames.add("August");
-		MonthsNames.add("September");
-		MonthsNames.add("October");
-		MonthsNames.add("November");
-		MonthsNames.add("December");
-		return MonthsNames.contains(mName);
-	}
-	private static boolean isMonthValidNumber(String mNumber)
-	{
-		Set<String>MonthsNumbers=new HashSet<String>();
-		for(int i=1;i<10;i++)
-		{
-			MonthsNumbers.add(""+i);
-			MonthsNumbers.add("0"+i);
+		try{
+			int num = Integer.parseInt(mNumber);
+			if( num>=1 && num<=12){
+				return true;
+			}
 		}
-		for(int i=10;i<=12;i++)
-			MonthsNumbers.add(""+i);
-		return MonthsNumbers.contains(mNumber);
+		catch (Exception e){
+		}
+		return false;
 	}
 	private static Timestamp getTimestamp(Date date)
 	{
