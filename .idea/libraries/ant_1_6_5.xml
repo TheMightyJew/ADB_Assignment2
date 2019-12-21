@@ -1,0 +1,50 @@
+<component name="libraryTable">
+  <library name="ant-1.6.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ant-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ant-antlr-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ant-junit-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ant-launcher-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ant-swing-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/asm-attrs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/c3p0-0.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/cglib-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/checkstyle-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/cleanimports.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/concurrent-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/connector.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ehcache-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/hibernate-3.2.6.ga.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jaas.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jacc-1_0-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/javassist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jaxen-1.1-beta-7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jboss-cache.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jboss-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jboss-jmx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jboss-system.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jdbc2_0-stdext.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jgroups-2.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/junit-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/log4j-1.2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/ojdbc14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/oscache-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/proxool-0.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/swarmcache-1.0rc2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/syndiag2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/versioncheck.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/xerces-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/xml-apis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/resources/hibernate_jars/lib/versioncheck.jar!/" />
+    </SOURCES>
+  </library>
+</component>

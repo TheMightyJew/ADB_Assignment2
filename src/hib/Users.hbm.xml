@@ -6,7 +6,7 @@
     <class name="hib.Users" table="USERS" optimistic-lock="version">
         <id name="userid" type="int">
             <column name="USERID" precision="9" scale="0" />
-            <generator class="assigned" />
+            <generator class="increment" />
         </id>
         <property name="username" type="string">
             <column name="USERNAME" length="150" />
@@ -20,10 +20,10 @@
         <property name="lastName" type="string">
             <column name="LAST_NAME" length="150" />
         </property>
-        <property name="dateOfBirth" type="serializable">
+        <property name="dateOfBirth" type="timestamp">
             <column name="DATE_OF_BIRTH" />
         </property>
-        <property name="registrationDate" type="serializable">
+        <property name="registrationDate" type="timestamp">
             <column name="REGISTRATION_DATE" />
         </property>
         <set name="histories" table="HISTORY" inverse="true" lazy="true" fetch="select">

@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="jar://$MODULE_DIR$/../../ojdbc6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-1.6.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-antlr-1.6.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-junit-1.6.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-launcher-1.6.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/antlr-2.7.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-swing-1.6.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/asm.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/asm-attrs.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/c3p0-0.9.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/cglib-2.1.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/checkstyle-all.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/cleanimports.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/commons-collections-2.1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/commons-logging-1.0.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/concurrent-1.3.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/connector.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/dom4j-1.6.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ehcache-1.2.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/hibernate-3.2.6.ga.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jaas.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jacc-1_0-fr.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/javassist.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jaxen-1.1-beta-7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-cache.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-common.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-jmx.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-system.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jdbc2_0-stdext.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jgroups-2.2.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/jta.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/junit-3.8.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/log4j-1.2.11.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/ojdbc14.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/oscache-2.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/proxool-0.8.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/swarmcache-1.0rc2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/syndiag2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/versioncheck.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/xerces-2.6.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../hibernate jars/lib/xml-apis.jar!/" />
+    <libelement value="jar://$USER_HOME$/ojdbc6.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ant-1.6.5.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ant-antlr-1.6.5.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ant-junit-1.6.5.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ant-launcher-1.6.5.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/antlr-2.7.6.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ant-swing-1.6.5.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/asm.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/asm-attrs.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/c3p0-0.9.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/cglib-2.1.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/checkstyle-all.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/cleanimports.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/commons-collections-2.1.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/commons-logging-1.0.4.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/concurrent-1.3.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/connector.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ehcache-1.2.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/hibernate-3.2.6.ga.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jaas.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jacc-1_0-fr.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/javassist.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jaxen-1.1-beta-7.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jboss-cache.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jboss-common.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jboss-jmx.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jboss-system.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jdbc2_0-stdext.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jgroups-2.2.8.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/jta.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/junit-3.8.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/log4j-1.2.11.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/ojdbc14.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/oscache-2.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/proxool-0.8.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/swarmcache-1.0rc2.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/syndiag2.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/versioncheck.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/xerces-2.6.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/hibernate jars/lib/xml-apis.jar!/" />
     <src_description expected_position="1">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
     </src_description>
@@ -51,13 +51,14 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="ojdbc6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../ojdbc6.jar!/" />
+          <root url="jar://$USER_HOME$/ojdbc6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -66,7 +67,7 @@
     <orderEntry type="module-library">
       <library name="ant-1.6.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-1.6.5.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ant-1.6.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -75,7 +76,7 @@
     <orderEntry type="module-library">
       <library name="ant-antlr-1.6.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-antlr-1.6.5.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ant-antlr-1.6.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -84,7 +85,7 @@
     <orderEntry type="module-library">
       <library name="ant-junit-1.6.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-junit-1.6.5.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ant-junit-1.6.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -93,7 +94,7 @@
     <orderEntry type="module-library">
       <library name="ant-launcher-1.6.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-launcher-1.6.5.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ant-launcher-1.6.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -102,7 +103,7 @@
     <orderEntry type="module-library">
       <library name="antlr-2.7.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/antlr-2.7.6.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/antlr-2.7.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -111,7 +112,7 @@
     <orderEntry type="module-library">
       <library name="ant-swing-1.6.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ant-swing-1.6.5.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ant-swing-1.6.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -120,7 +121,7 @@
     <orderEntry type="module-library">
       <library name="asm.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/asm.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/asm.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -129,7 +130,7 @@
     <orderEntry type="module-library">
       <library name="asm-attrs.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/asm-attrs.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/asm-attrs.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -138,7 +139,7 @@
     <orderEntry type="module-library">
       <library name="c3p0-0.9.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/c3p0-0.9.1.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/c3p0-0.9.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -147,7 +148,7 @@
     <orderEntry type="module-library">
       <library name="cglib-2.1.3.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/cglib-2.1.3.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/cglib-2.1.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -156,7 +157,7 @@
     <orderEntry type="module-library">
       <library name="checkstyle-all.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/checkstyle-all.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/checkstyle-all.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -165,7 +166,7 @@
     <orderEntry type="module-library">
       <library name="cleanimports.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/cleanimports.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/cleanimports.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -174,7 +175,7 @@
     <orderEntry type="module-library">
       <library name="commons-collections-2.1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/commons-collections-2.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/commons-collections-2.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -183,7 +184,7 @@
     <orderEntry type="module-library">
       <library name="commons-logging-1.0.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/commons-logging-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/commons-logging-1.0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -192,7 +193,7 @@
     <orderEntry type="module-library">
       <library name="concurrent-1.3.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/concurrent-1.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/concurrent-1.3.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -201,7 +202,7 @@
     <orderEntry type="module-library">
       <library name="connector.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/connector.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/connector.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -210,7 +211,7 @@
     <orderEntry type="module-library">
       <library name="dom4j-1.6.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/dom4j-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/dom4j-1.6.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -219,7 +220,7 @@
     <orderEntry type="module-library">
       <library name="ehcache-1.2.3.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ehcache-1.2.3.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ehcache-1.2.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -228,7 +229,7 @@
     <orderEntry type="module-library">
       <library name="hibernate-3.2.6.ga.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/hibernate-3.2.6.ga.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/hibernate-3.2.6.ga.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -237,7 +238,7 @@
     <orderEntry type="module-library">
       <library name="jaas.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jaas.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jaas.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -246,7 +247,7 @@
     <orderEntry type="module-library">
       <library name="jacc-1_0-fr.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jacc-1_0-fr.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jacc-1_0-fr.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -255,7 +256,7 @@
     <orderEntry type="module-library">
       <library name="javassist.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/javassist.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/javassist.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -264,7 +265,7 @@
     <orderEntry type="module-library">
       <library name="jaxen-1.1-beta-7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jaxen-1.1-beta-7.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jaxen-1.1-beta-7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -273,7 +274,7 @@
     <orderEntry type="module-library">
       <library name="jboss-cache.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-cache.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jboss-cache.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -282,7 +283,7 @@
     <orderEntry type="module-library">
       <library name="jboss-common.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-common.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jboss-common.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -291,7 +292,7 @@
     <orderEntry type="module-library">
       <library name="jboss-jmx.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-jmx.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jboss-jmx.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -300,7 +301,7 @@
     <orderEntry type="module-library">
       <library name="jboss-system.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jboss-system.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jboss-system.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -309,7 +310,7 @@
     <orderEntry type="module-library">
       <library name="jdbc2_0-stdext.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jdbc2_0-stdext.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jdbc2_0-stdext.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -318,7 +319,7 @@
     <orderEntry type="module-library">
       <library name="jgroups-2.2.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jgroups-2.2.8.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jgroups-2.2.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -327,7 +328,7 @@
     <orderEntry type="module-library">
       <library name="jta.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/jta.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/jta.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -336,7 +337,7 @@
     <orderEntry type="module-library">
       <library name="junit-3.8.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/junit-3.8.1.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/junit-3.8.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -345,7 +346,7 @@
     <orderEntry type="module-library">
       <library name="log4j-1.2.11.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/log4j-1.2.11.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/log4j-1.2.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -354,7 +355,7 @@
     <orderEntry type="module-library">
       <library name="ojdbc14.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/ojdbc14.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/ojdbc14.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -363,7 +364,7 @@
     <orderEntry type="module-library">
       <library name="oscache-2.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/oscache-2.1.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/oscache-2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -372,7 +373,7 @@
     <orderEntry type="module-library">
       <library name="proxool-0.8.3.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/proxool-0.8.3.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/proxool-0.8.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -381,7 +382,7 @@
     <orderEntry type="module-library">
       <library name="swarmcache-1.0rc2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/swarmcache-1.0rc2.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/swarmcache-1.0rc2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -390,7 +391,7 @@
     <orderEntry type="module-library">
       <library name="syndiag2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/syndiag2.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/syndiag2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -399,7 +400,7 @@
     <orderEntry type="module-library">
       <library name="versioncheck.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/versioncheck.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/versioncheck.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -408,7 +409,7 @@
     <orderEntry type="module-library">
       <library name="xerces-2.6.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/xerces-2.6.2.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/xerces-2.6.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -417,11 +418,13 @@
     <orderEntry type="module-library">
       <library name="xml-apis.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../hibernate jars/lib/xml-apis.jar!/" />
+          <root url="jar://$USER_HOME$/hibernate jars/lib/xml-apis.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="ojdbc10" level="project" />
+    <orderEntry type="library" name="ant-1.6.5" level="project" />
   </component>
 </module>
