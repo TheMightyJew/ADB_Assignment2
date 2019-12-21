@@ -19,6 +19,39 @@ import hib.Users;
 
 public class Assignment {
 
+    /*public static void main(String[] args) {
+        if (isExistUsername("TheMightyJew") == false)
+            System.out.println(false);
+        else if (isExistUsername("TheMightyJewwwwwwwwwwww") == true)
+            System.out.println(false);
+        else if (insertUser("TheMightyJew", "123", "a", "a", "17", "08", "1998")  != null)
+            System.out.println(false);
+        else if (insertUser("TheMightyJewwwwwwwwwww", "123", "a", "a", "17", "08", "1998")  == null)
+            System.out.println(false);
+        else if (getTopNItems(2).size() != 2)
+            System.out.println(false);
+        else if (validateUser("TheMightyJew","123").equals("Not Found"))
+            System.out.println(false);
+        else if (validateUser("TheMightyJew","1234").equals("Not Found")==false)
+            System.out.println(false);
+        else if (validateAdministrator("Jesus","123").equals("Not Found"))
+            System.out.println(false);
+        else if (validateAdministrator("Jesus","1234").equals("Not Found")==false)
+            System.out.println(false);
+        else if (getHistory("1").size() == 0)
+            System.out.println(false);
+        else if (getNumberOfRegistredUsers(2) == 0)
+            System.out.println(false);
+        else if (getUsers().size() == 0)
+            System.out.println(false);
+        else if (getUser("1").getUsername().equals("TheMightyJew")==false)
+            System.out.println(false);
+        else
+            System.out.println(true);
+        insertToHistory("1","1");
+        insertToLog("1");
+    }*/
+
     /*
      * 1.2.5
      */
